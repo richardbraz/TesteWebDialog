@@ -6,7 +6,7 @@ import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
 import Runners.Executar;
-import org.openqa.selenium.Alert;
+
 
 public class Steps extends Executar{
 
