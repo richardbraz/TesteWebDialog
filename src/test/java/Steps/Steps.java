@@ -29,7 +29,7 @@ public class Steps extends Executar{
     public void digitarASenha() throws InterruptedException {
         loginPage.digitarSenha();
     }
-    @Quando("clico no botão entrar")
+    @E("clico no botão entrar")
     public void clicoNoBotãoEntrar() throws InterruptedException {
         loginPage.clicarEntrar();
     }
@@ -40,7 +40,7 @@ public class Steps extends Executar{
     public void clicarEmTimeline() throws InterruptedException {
         homePage.acessarTimeline();
     }
-    @Quando("clicar em O que você vai nos dizer hoje?")
+    @E("clicar em O que você vai nos dizer hoje?")
     public void clicarEmOQueVocêVaiNosDizerHoje() throws InterruptedException {
         timelinePage.clicarnoPensamento();
     }
@@ -53,18 +53,18 @@ public class Steps extends Executar{
         System.out.println("************ANTENÇÃO Você tem um tempo de 10 segundos para escolher o vídeo a ser postado, pois a automação está setada com esse período, podendo ser alterado************");
         System.out.println("************Selecionar um vídeo do seu computador/pen drive/HD externo e clicar em Abrir************");
     }
-    @Quando("selecionar um vídeo da minha galeria no meu computador")
+    @E("selecionar um vídeo da minha galeria no meu computador")
     public void selecionarUmVídeoDaMinhaGaleriaNoMeuComputador() {
     }
-    @Quando("clicar em Abrir")
+    @E("clicar em Abrir")
     public void clicarEmAbrir() {
     }
-    @Quando("clicar em Publicar")
+    @E("clicar em Publicar")
     public void clicarEmPublicar() throws InterruptedException {
         novaPublicaçãoPosVideoPage.clicarPublicar();
     }
-    @Então("o video dee aparecer na minha timeline")
-    public void oVideoDeeAparecerNaMinhaTimeline() {
+    @Então("o video deve aparecer na minha timeline")
+    public void oVideoDeveAparecerNaMinhaTimeline() {
         System.out.println("************O vídeo deve ser o primeiro em sua Timeline");
     }
 

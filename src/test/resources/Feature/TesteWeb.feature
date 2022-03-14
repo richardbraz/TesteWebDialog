@@ -15,4 +15,4 @@ Funcionalidade: Acessar o site da Dialog e postar um video na timeline
     E selecionar um vídeo da minha galeria no meu computador
     E clicar em Abrir
     E clicar em Publicar
-    Então o video dee aparecer na minha timeline
+    Então o video deve aparecer na minha timeline
